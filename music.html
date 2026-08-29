@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <title> Music player</title>
+</head>
+<link rel =stylesheet href="Music-player.css">
+<body>
+<div class="main">
+ 
+     <div class="navbar">
+        <p> Music Palyer</p>
+     </div>
+     
+   <div class="image">
+  <img class="krishan" >
+<audio class="audio"></audio>
+    <div class="dowmword"> 
+    <div class="Controller" >
+        <button id="button1" type="button" aria-label="Previous track">⏮</button>
+        <button id="button2" type="button" aria-label="Play">▶</button>
+        <button  id="button3" type="button" aria-label="Next track">⏭</button>
+    </div>
+       <div class="Music-time">
+        <p class="start">00:00</p>
+         
+             <input type="range" class="line" min="0" max="100" value="0">
+         
+         <p class="end">00:00</p>
+       </div>
+      <div class="volume-control">
+       <span aria-hidden="true">🔊</span>
+      
+       <input id="volume" type="range" min="0" max="100" value="70" aria-label="Volume">
+      </div>
+</div>
+
+</div>   
+
+</div>
+
+
+
+
+<script src="app.js"></script>
+</body>
+
+</html>

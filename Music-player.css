@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body,html{
+width: 100%;
+height: 100%;
+  justify-content: center;
+    align-items: center;
+     display: block;
+}
+.main{
+  width: 100%;
+  height: 100%;
+    background-color: #7a9094;
+  font-size: 20px;
+  display: block;
+ padding-top: 10px;
+   justify-content: center;
+}
+.navbar{
+    width: 96%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(110deg,
+        rgba(255, 255, 255, 0.9),
+        rgba(218, 247, 255, 0.78) 52%,
+        rgba(238, 226, 255, 0.82));
+    padding-top: 20px;
+    margin-left: 25px;
+    border-radius: 20px;
+    font-size: 30px;
+    font-family:sans-serif;
+    color: #164e63;
+    font-weight: bold;
+    color: black;
+    border: 2px solid black;
+
+    
+}
+.image{
+    width: 96%;
+    height: 87%;
+    background-color: #fff;
+    margin-left: 25px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+     border: 2px solid black;
+}
+.krishan{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    
+}
+
+.dowmword{
+    width: 90%;
+    height: 70px;
+    position: absolute;
+    left: 5%;
+    bottom: 30px;
+    border-radius: 40px;
+    background: linear-gradient(135deg,
+        rgba(255, 255, 255, 0.78),
+        rgba(218, 247, 255, 0.48) 48%,
+        rgba(238, 226, 255, 0.55));
+    border: 1px solid rgba(255, 255, 255, 0.72);
+    box-shadow: 0 8px 25px rgba(38, 91, 112, 0.18);
+    backdrop-filter: blur(16px) saturate(135%);
+    -webkit-backdrop-filter: blur(16px) saturate(135%);
+   border: 2px solid black;
+    display: flex;
+    gap: 40px;
+}
+.Controller{
+    width: 21%;
+    height:44px;
+    background-color: #fff;
+    margin-top: 14px;
+    margin-left: 10px;
+    border-radius: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        justify-content: space-evenly;
+    gap: 6px;
+  
+}
+button{
+    width: 37px;
+    height: 34px;
+    font-size: 20px;
+    border: 0;
+    border-radius:20px;
+    justify-content: space-evenly;
+    cursor: pointer; 
+    font-weight: bold;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     padding-bottom: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+button:hover {
+ /* Darker blue on hover */
+  transform: scale(1.05);   /* Slightly enlarges the button */
+}
+.Music-time{
+    flex: 1;
+    min-width: 0;
+    height: 44px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+   padding-left: 10px;
+}
+.line{
+    width: 80%;
+    height: 5px;
+    background-color: #732f2f;
+    
+    margin-left: 10px;
+    border-radius: 30px;
+    border: 2px solid rgb(27, 26, 26);
+}
+.end{
+    margin-left: 10px;
+}
+.volume-control{
+    width: 170px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 0 12px;
+    box-sizing: border-box;
+    margin-top: 13px;
+    margin-right: 10px;
+}
+.volume-label{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+}
+.volume-control input[type="range"]{
+    width: 105px;
+    
+    
+}
